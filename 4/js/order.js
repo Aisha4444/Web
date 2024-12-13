@@ -1,8 +1,6 @@
 const order = {
     soup: null,
     mainDish: null,
-    pizza: null,
-    salad: null,
     drink: null,
     totalPrice: 0,
 };
@@ -82,8 +80,6 @@ document.querySelectorAll('#drinks .dish button').forEach(button => {
 document.querySelector('button[type="reset"]').addEventListener('click', () => {
     order.soup = null;
     order.mainDish = null;
-    order.pizza = null;
-    order.salad = null;
     order.drink = null;
     order.totalPrice = 0;
     
